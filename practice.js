@@ -130,7 +130,8 @@ methodCollection.logHello = function() {console.log("hello")}
 */
 
 //Code Here
-
+methodCollection.alertHello()
+methodCollection.logHello()
 ////////// PROBLEM 6 //////////
 
 /*
@@ -139,6 +140,10 @@ methodCollection.logHello = function() {console.log("hello")}
 */
 
 //Code Here
+function makePerson (name, birthday, ssn) {
+  var newObj = {name, birthday, ssn}
+  return newObj
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -148,3 +153,9 @@ methodCollection.logHello = function() {console.log("hello")}
 */
 
 //Code Here
+function makeCard (cardNumber, expirationDate, securityCode) {
+  newCard = {
+    cardNumber, expirationDate, securityCode
+  }
+  return newCard
+}
